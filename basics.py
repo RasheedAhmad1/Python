@@ -30,3 +30,9 @@ name = "Rasheed Jan"
 NAME = "Rasheed Jan" # two different variables
 
 # ----------------------------------------- #
+
+# Taking input form the user
+name = input("Enter your name: ") # input always returns a string
+print("You entered:",name)
+
+# ----------------------------------------- #
