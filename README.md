@@ -5,4 +5,4 @@ Python As Fast As Possible
 These implementations are for learning purposes only. Therefore they may be less efficient than the implementations in the Python standard library.
 
 ## List of Algorithms
-See my [directory](directory.md).
+See my [directory](DIRECTORY.md).
