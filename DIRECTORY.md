@@ -8,7 +8,6 @@
 +Variable name cannot start with a number
 -9name is a wrong variable name
 -----
-
 # Taking input from user
 
 -----
