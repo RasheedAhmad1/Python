@@ -1,5 +1,6 @@
 
 ## Basic Python
+Basics for beginners
 * Data Types
 * Variables
 * Taking input from user
@@ -11,6 +12,7 @@
 ## Sending Emails
 ## Database
 ## Automation
+Small but useful scripts to automate your daily routines
 ## Web Programming
 ## Data Analysis
 ## Excel
