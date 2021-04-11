@@ -1,5 +1,12 @@
-# Data Types
-# int
+# Data Types: Data type is the representation of nature and type of data that has been going to be used in programming
+#Python has the following data types by default
+#Test type: str
+#Numeric types: int, float, complex
+#Sequence types: list, tuple, range
+#Mapping types: set, frozenset
+#Boolean type: bool
+#Binary types: Bytes, bytearray, memoryview
+#int
 age = 24
 
 # float 
