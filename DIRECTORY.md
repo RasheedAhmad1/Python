@@ -1,12 +1,12 @@
 
 ## Basic Python
 Basics for beginners
-* [Comments](Comments.py)
-* [Data Types](Data_Types.py)
-* [Variables](start.py)
-* [Taking input from user](start.py)
-* [Arithmetic Operations](start.py)
-* [Order of Operation](start.py)
+* [Comments](Basics/Comments.py)
+* [Data Types](Basics/Data_Types.py)
+* [Variables]()
+* [Taking input from user]()
+* [Arithmetic Operations]()
+* [Order of Operation]()
 * [Conditionals](conditionals.py)
 * Loops
 * Functions
