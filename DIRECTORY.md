@@ -1,7 +1,8 @@
 
 ## Basic Python
 Basics for beginners
-* [Data Types](start.py)
+* [Comments](Comments.py)
+* [Data Types](Data_Types.py)
 * [Variables](start.py)
 * [Taking input from user](start.py)
 * [Arithmetic Operations](start.py)
