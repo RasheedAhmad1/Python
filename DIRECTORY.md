@@ -6,7 +6,7 @@ Basics for beginners
 * [Taking input from user](start.py)
 * [Arithmetic Operations](start.py)
 * [Order of Operation](start.py)
-* Conditionals
+* [Conditionals](conditionals.py)
 * Loops
 * Functions
 * List and Dict Comprehension
