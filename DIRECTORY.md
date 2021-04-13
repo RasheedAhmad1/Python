@@ -32,7 +32,10 @@ Basics for beginners
 ## Strings
 ## File Handling
 ## Sending Emails
-## OOP 
+## OOP
+* Inheritance
+* Advance class behaviour
+* Dunder methods (__init__, __eq__)
 ## Dunder methods
 ## Database
 ## Libraries
