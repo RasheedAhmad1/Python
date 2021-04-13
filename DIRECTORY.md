@@ -46,6 +46,8 @@ Basics for beginners
 * Seaborn
 * regex
 ## Web Scraping
+* Web Scraping
+* Youtube data scraping
 ## Automation
 Small but useful scripts to automate your daily routines
 ## Web Programming
