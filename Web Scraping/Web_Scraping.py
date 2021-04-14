@@ -14,18 +14,15 @@ pages_to_scrap = 5
 for i in range(1, pages_to_scrap+1):
     page_url = ('http://books.toscrape.com/catalogue/page-{}.html').format(i)
     pages.append(page_url)
-
-<<<<<<< HEAD
     # Parse the text
     for item in pages:
         page = requests.get(item) # get all content from the 'item'
         soup = BeautifulSoup(page.text, 'html.parser') # take all the text from 'page' parse it and return onto the 'soup'
-=======
+        
 # Parse the text
 for item in pages:
     page = requests.get(item) # get all content from the 'item'
     soup = BeautifulSoup(page.text, 'html.parser') # take all the text from 'page' parse it and return onto the 'soup'
->>>>>>> 274add95c32dd35fe73a480f9edf9904ce1903c8
 # print(soup.prettify()) # prettify() will give the actual indentation of the code also
 
 # Get text from all 'h3'
