@@ -3,11 +3,11 @@
 Basics for beginners
 * [Comments](Basics/Comments.py)
 * [Data Types - Mutable & Immutable](Basics/Data_Types.py)
-* [Variables]()
+* [Variables](Basics/Variables.py)
 * [Taking input from user]()
-* [Arithmetic Operations]()
-* [Order of Operation]()
-* [Conditionals](conditionals.py)
+* [Operations](Basics/Operators.py)
+* [Order of Operation](Basics/Operation.py)
+* [Conditionals](Basics/Conditionals.py)
 * Loops
 * Functions
 * List and Dict Comprehension
@@ -46,7 +46,7 @@ Basics for beginners
 * Seaborn
 * regex
 ## Web Scraping
-* Web Scraping
+* [Web Scraping](Web Scraping/Web_Scraping.py)
 * Youtube data scraping
 ## Automation
 Small but useful scripts to automate your daily routines
