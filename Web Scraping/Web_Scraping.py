@@ -18,11 +18,7 @@ for i in range(1, pages_to_scrap+1):
     for item in pages:
         page = requests.get(item) # get all content from the 'item'
         soup = BeautifulSoup(page.text, 'html.parser') # take all the text from 'page' parse it and return onto the 'soup'
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> f4ebdcb5eff655177949b2368896746d4127c601
 # Parse the text
 for item in pages:
     page = requests.get(item) # get all content from the 'item'
