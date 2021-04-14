@@ -15,8 +15,6 @@ for i in range(1, pages_to_scrap+1):
     page_url = ('http://books.toscrape.com/catalogue/page-{}.html').format(i)
     pages.append(page_url)
 
-print(pages)
-
 # Parse the text
 for item in pages:
     page = requests.get(item) # get all content from the 'item'
@@ -57,7 +55,7 @@ my_data = pd.DataFrame(data=data)
  
 # Reset the default index(starting from 0) to 1
 my_data.index+=1
-print(my_data)
+# print(my_data)
 
 # Export the data as Excel file
-# my_data.to_excel('C:/Users/HP/Desktop/Python/Web Scraping/Output.xlsx')
+my_data.to_excel('C:/Users/HP/Desktop/Python/Web Scraping/Output.xlsx')
