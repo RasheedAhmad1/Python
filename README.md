@@ -8,5 +8,11 @@ These implementations are for learning purposes only. Therefore they may be less
 ## Contribution Guidelines
 Read my [Contribution Guidelines](CONTRIBUTION.md) before you contribute.
 
+## Contributors
+- Rasheed Ahmad <@rasheedahmad>
+
 ## List of Algorithms
 See my [directory](DIRECTORY.md).
+
+## License and Copyright
+&copy; Rasheed Ahmad, Data Analyst at selfemployed
