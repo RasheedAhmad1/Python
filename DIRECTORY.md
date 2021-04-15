@@ -40,13 +40,14 @@ Basics for beginners
 ## Database
 ## Libraries
 * OS
+* Sys
 * Numpy
 * Pandas
 * Matplotlib
 * Seaborn
-* regex
+* re (regex)
 ## Web Scraping
-* [Web Scraping](Web Scraping/Web_Scraping.py)
+* [Web Scraping](WebScraping/Web_Scraping.py)
 * Youtube data scraping
 ## Automation
 Small but useful scripts to automate your daily routines
