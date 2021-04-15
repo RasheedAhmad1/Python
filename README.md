@@ -16,3 +16,5 @@ See my [directory](DIRECTORY.md).
 
 ## License and Copyright
 &copy; Rasheed Ahmad, Data Analyst at selfemployed
+
+Licensed under the [MIT License](LICENSE).
