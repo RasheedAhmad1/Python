@@ -59,7 +59,7 @@ my_data = pd.DataFrame(data=data)
  
 # Reset the default index(starting from 0) to 1
 my_data.index+=1
-# print(my_data)
+print(my_data)
 
 # Export the data as Excel file
 # my_data.to_excel('C:/Users/HP/Desktop/Python/Web Scraping/Output.xlsx')
