@@ -47,7 +47,7 @@ Basics for beginners
 * Seaborn
 * re (regex)
 ## Web Scraping
-* [Web Scraping](Web_Scraping/Web_Scraping.py)
+* [Web Scraping](Web_Scraping/Web_Scraping.ipynb)
 * Youtube data scraping
 ## Automation
 Small but useful scripts to automate your daily routines
