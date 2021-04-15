@@ -13,41 +13,36 @@ pages_to_scrap = 5
 # Get the raw data
 for i in range(1, pages_to_scrap+1):
     page_url = ('http://books.toscrape.com/catalogue/page-{}.html').format(i)
-    pages.append(page_url)
+    pages.append(page_url)  
     # Parse the text
-    for item in pages:
-        page = requests.get(item) # get all content from the 'item'
-        soup = BeautifulSoup(page.text, 'html.parser') # take all the text from 'page' parse it and return onto the 'soup'
-
-# Parse the text
 for item in pages:
-    page = requests.get(item) # get all content from the 'item'
-    soup = BeautifulSoup(page.text, 'html.parser') # take all the text from 'page' parse it and return onto the 'soup'
-# print(soup.prettify()) # prettify() will give the actual indentation of the code also
-
-# Get text from all 'h3'
-for i in soup.findAll('h3'):
-    title = i.getText()
-    titles.append(title)    
-
-# Get text from all 'h3'
-for j in soup.findAll('p', class_='price_color'):
-    price = j.getText()
-    prices.append(price) 
-
-# Get the star ratings for each
-for k in soup.findAll('p', class_='star-rating'):
-    for m, n in k.attrs.items():
-        star = n[1]
-        stars.append(star)
-
-# Find URLs of all images
-divs = soup.findAll('div', class_='image_container')
-for thumb in divs:
-    tags = thumb.find('img', class_='thumbnail')
-    url = 'http://books.toscrape.com/'+str(tags['src'])
-    clean_urls = url.replace('../', '')
-    urls.append(clean_urls)
+    response = requests.get(item, timeout=(3.05, 5)) # get all content from the 'item'
+    # if response: # response.status_code == 200
+    #     print('Success!')
+    # else: # elif response.status_code == 404
+    #     print('Not Found.')
+    soup = BeautifulSoup(response.text, 'html.parser') # take all the text from 'page' parse it and return onto the 'soup'
+    # soup.prettify() # prettify() will give the actual indentation of the code also
+    # Get text from all 'h3'
+    for i in soup.findAll('h3'):
+        title = i.getText()
+        titles.append(title)
+        # Get text from all 'h3'
+    for j in soup.findAll('p', class_='price_color'):
+        price = j.getText()
+        prices.append(price) 
+        # Get the star ratings for each
+    for k in soup.findAll('p', class_='star-rating'):
+        for m, n in k.attrs.items():
+            star = n[1]
+            stars.append(star)
+    # Find URLs of all images
+    divs = soup.findAll('div', class_='image_container')
+    for thumb in divs:
+        tags = thumb.find('img', class_='thumbnail')
+        url = 'http://books.toscrape.com/'+str(tags['src'])
+        clean_urls = url.replace('../', '')
+        urls.append(clean_urls)
 
 # Gather all the data in a dictionary
 data = {'Titles':titles, 'Prices':prices, 'Star ratings':stars, 'URLs':urls}
