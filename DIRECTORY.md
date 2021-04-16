@@ -46,6 +46,7 @@ Basics for beginners
 * Matplotlib
 * Seaborn
 * re (regex)
+* [requests](Libraries/Requests.md)
 ## Web Scraping
 * [Web Scraping](Web_Scraping/Web_Scraping.ipynb)
 * Youtube data scraping
