@@ -43,7 +43,7 @@ Basics for beginners
 * Sys
 * Numpy
 * Pandas
-* Matplotlib
+* Matplotlib 
 * Seaborn
 * re (regex)
 * [requests](Libraries/Requests.md)
