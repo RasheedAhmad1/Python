@@ -1,16 +1,14 @@
 
 ## Python Basics to Advanced
 Basics for beginners
-* [Comments](Basics/Comments.py)
-* [Data Types - Mutable & Immutable](Basics/Data_Types.py)
-* [Variables](Basics/Variables.py)
-* [Taking input from user]()
-* [Operations](Basics/Operators.py)
-* [Order of Operation](Basics/Operation.py)
-* [Conditionals](Basics/Conditionals.py)
-* Loops
-* Functions
-* List and Dict Comprehension
+* [Data Types - Mutable & Immutable](Basics/Data_Types.ipynb)
+* [Comments and Variables](Basics/Variables.ipynb)
+* [Operations](Basics/Operators.ipynb)
+* [Order of Operation](Basics/Operation.ipynb)
+* [Conditionals](Basics/Conditionals.ipynb)
+* [Loops](Basics/Loops.ipynb)
+* [Functions](Basics/Functions.ipynb)
+* [List and Dict Comprehensions](Basics/Comprehensions.ipynb)
 * Lambda Function
 * Pip
 * Enviroments
