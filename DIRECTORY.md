@@ -8,13 +8,13 @@ Basics for beginners
 * [Conditionals](Basics/Conditionals.ipynb)
 * [Loops](Basics/Loops.ipynb)
 * [Functions](Basics/Functions.ipynb)
-* [List and Dict Comprehensions](Basics/Comprehensions.ipynb)
-* [Lambda Function](Basics/Lambda.ipynb)
+* [Lambda Function](Intermediate_and_Advanced/Lambda.ipynb)
+* [*args, **kwargs](Intermediate_and_Advanced/Arguments.ipynb)
+* [List and Dict Comprehensions](Intermediate_and_Advanced/Comprehensions.ipynb)
 * Pip
 * Enviroments
 * Modules
 * Async I/O
-* *args, **kwargs
 * Design Pattrens
 * Decorators
 * Generators
@@ -30,11 +30,13 @@ Basics for beginners
 ## Strings
 ## File Handling
 ## Sending Emails
-## OOP
-* Inheritance
-* Advance class behaviour
-* Dunder methods (__init__, __eq__)
-## Dunder methods
+## Python OOP Concepts
+**Object-oriented programming** (OOP) is a method of structuring a program by bundling related properties and behaviors into individual **objects**.
+* [Classes and Instances](Intermediate_and_Advanced/Clesses.py)
+* [Inheritance](Intermediate_and_Advanced/Inheritance.ipynb)
+* [Encapsulation](Intermediate_and_Advanced/Encapsulation.ipynb)
+* [Polymorphism](Intermediate_and_Advanced/Polymorphism.ipynb)
+* [Data Abstraction](Intermediate_and_Advanced/Data_Abstraction.ipynb)
 ## Database
 ## Libraries
 * OS
