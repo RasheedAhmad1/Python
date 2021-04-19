@@ -32,11 +32,11 @@ Basics for beginners
 ## Sending Emails
 ## Python OOP Concepts
 **Object-oriented programming** (OOP) is a method of structuring a program by bundling related properties and behaviors into individual **objects**.
-* [Classes and Instances](Python_OOP/Clesses.py)
-* [Inheritance](Python_OOP/Inheritance.ipynb)
-* [Encapsulation](Python_OOP/Encapsulation.ipynb)
-* [Polymorphism](Python_OOP/Polymorphism.ipynb)
-* [Data Abstraction](Python_OOP/Data_Abstraction.ipynb)
+* [Classes and Instances](Python_OOP/01_Clesses.ipynb)
+* [Inheritance](Python_OOP/02_Inheritance.ipynb)
+* [Encapsulation](Python_OOP/03_Encapsulation.ipynb)
+* [Polymorphism](Python_OOP/04_Polymorphism.ipynb)
+* [Data Abstraction](Python_OOP/05_Data_Abstraction.ipynb)
 ## Database
 ## Libraries
 * OS
