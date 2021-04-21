@@ -8,9 +8,9 @@ Basics for beginners
 * [Conditionals](Basics/Conditionals.ipynb)
 * [Loops](Basics/Loops.ipynb)
 * [Functions](Basics/Functions.ipynb)
-* [Lambda Function](Intermediate_and_Advanced/Lambda.ipynb)
-* [*args, **kwargs](Intermediate_and_Advanced/Arguments.ipynb)
-* [List and Dict Comprehensions](Intermediate_and_Advanced/Comprehensions.ipynb)
+* [Lambda Function](Intermediate_and_Advanced/01_Lambda.ipynb)
+* [*args, **kwargs](Intermediate_and_Advanced/02_Arguments.ipynb)
+* [List and Dict Comprehensions](Intermediate_and_Advanced/03_Comprehensions.ipynb)
 * Pip
 * Enviroments
 * Modules
