@@ -50,7 +50,7 @@ Basics for beginners
 * [requests](Libraries/Requests.md)
 ## Web Scraping
 * [Web Scraping](Web_Scraping/Web_Scraping.ipynb)
-* Youtube data scraping
+* Youtube data scraping(Web_Scraping/scrap_youtube_comments.ipynb)
 ## Automation
 Small but useful scripts to automate your daily routines
 ## Web Programming
