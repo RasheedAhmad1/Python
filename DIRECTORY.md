@@ -20,7 +20,7 @@ Basics for beginners
 * Decorators
 * Generators
 * Context managers
-* Meta Classes
+* [Meta Classes](Intermediate_and_Advanced/Meta_Classes.ipynb)
 * Concurrency and Parallelism
 * Multiprocessing and Multithreading
 * Testing
