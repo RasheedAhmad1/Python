@@ -46,7 +46,7 @@ Basics for beginners
 * OS
 * Sys
 * Numpy
-* Pandas
+* [Pandas](Libraries/Pandas/Pandas.ipynb)
 * Matplotlib 
 * Seaborn
 * re (regex)
