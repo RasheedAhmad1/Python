@@ -26,6 +26,8 @@ Basics for beginners
 * Multiprocessing and Multithreading
 * Testing
   * Unit testing
+    - pytest
+    - unittest
   * Test driven development
 * Build and Manipulate packages
 * Cython
