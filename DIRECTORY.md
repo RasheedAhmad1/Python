@@ -48,7 +48,7 @@ Basics for beginners
 * Numpy
 * [Pandas](Libraries/Pandas/Pandas.ipynb)
 * Matplotlib 
-* Seaborn
+* [Seaborn](Libraries/Pandas/Pandas.ipynb)
 * re (regex)
 * [requests](Libraries/Requests.md)
 ## Web Scraping
